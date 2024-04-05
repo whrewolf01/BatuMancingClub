@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Batu Mancing Club</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logoBMC.png" alt="logo" width="200" />
+        <h1 id="clubName">Batu Mancing Club</h1>
+        <nav>
+            <ul type="square" id="navigation">
+                <li><a href="#" id="homeLink">Home</a></li>
+                <li><a href="Login.html" id="signUpLink">Sign Up</a></li>
+                <li><a href="Register.html" id="registerLink">Register</a></li>
+                <li><a href="info.html" id="infoLink">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="News">
+        <h2> Info Seputar Mancing Kota Batu </h2>
+        <p> Cari Spot Mancing di Kota Batu </p>
+        <a href="info.html" class="btn">Info Spot Mancing Kota Batu</a>
+    </section>
+    <footer>
+        <p>© 2024 Batu Mancing Club. All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // Implementasi DOM untuk mengubah konten
+        document.getElementById('clubName').innerText = 'Batu Mancing Club';
+        document.getElementById('homeLink').innerText = 'New Home';
+        document.getElementById('signUpLink').innerText = 'New Sign Up';
+        document.getElementById('registerLink').innerText = 'New Register';
+        document.getElementById('infoLink').innerText = 'New Info';
+    </script>
+</body>
+</html>
