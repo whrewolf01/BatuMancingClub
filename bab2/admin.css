@@ -1,0 +1,118 @@
+/* Style untuk sidebar */
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background-color: #11101d;
+    transition: 0.5s;
+}
+
+.sidebar.active {
+    width: 70px;
+}
+
+.logo-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-details .logo_name {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.nav-links {
+    height: 100%;
+    padding: 30px 0;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    position: relative;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.nav-links li a {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-links li a:hover {
+    background: #45436b;
+}
+
+.nav-links li a.active {
+    background: #1a1a1a;
+}
+
+.nav-links li a .links_name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.nav-links i {
+    height: 50px;
+    min-width: 70px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* Style untuk home section */
+.home-section {
+    position: relative;
+    margin-left: 250px;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+.home-section nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-details .admin_name {
+    color: #11101d;
+    font-weight: 500;
+}
+
+.home-content {
+    margin-top: 20px;
+}
+
+/* Style untuk tombol sidebar */
+.sidebar-button {
+    position: absolute;
+    left: 260px;
+    background: #11101d;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sidebar-button:hover {
+    background: #333;
+}
+
+.sidebar-button i {
+    font-size: 24px;
+    color: #fff;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Batu Mancing Club</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #News {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #dashboard {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Responsive Media Queries */
+        @media only screen and (max-width: 600px) {
+            header {
+                padding: 5px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            nav ul {
+                text-align: center;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logoBMC.png" alt="logo" width="200" />
+        <h1>Batu Mancing Club</h1>
+        <nav>
+            <ul type="square">
+                <li><a href="#">Home</a></li>
+                <li><a href="Login.html">Sign Up</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="News">
+        <h2> Info Seputar Mancing Kota Batu </h2>
+        <p> Cari Spot Mancing di Kota Batu </p>
+        <a href="info.html" class="btn">Info Spot Mancing Kota Batu</a>
+    </section>
+    <footer>
+        <p>© 2024 Batu Mancing Club. All Rights Reserved</p>
+    </footer>
+</body>
+</html>
